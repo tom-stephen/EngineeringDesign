@@ -4,8 +4,7 @@ import ReactFlow, {
   Controls,
   Background,
   useNodesState,
-  useEdgesState,
-  addEdge
+  useEdgesState
 } from 'reactflow';
 import 'reactflow/dist/style.css';
 
