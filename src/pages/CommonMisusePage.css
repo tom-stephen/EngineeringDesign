@@ -1,0 +1,16 @@
+.content-wrapper{
+  /* remve all formating from it */
+  display: flex;
+  
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .content-wrapper {
+    flex-direction: column;
+  }
+
+  .section-graphic img, .chart-container {
+    max-width: 90%;
+  }
+}

@@ -1,0 +1,180 @@
+/* Global Styles */
+body {
+  margin: 0;
+  background-color: #ffffff; /* Keep White Background */
+  color: #000000; /* Black Text */
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Page Container */
+.page-container {
+  flex: 1;
+  padding: 1rem 2rem;
+}
+
+/* Typography */
+h1,
+h2,
+h3 {
+  color: #000000; /* Black Text */
+}
+
+p {
+  color: #333333; /* Dark Gray Text */
+}
+
+/* Header Navigation */
+.header-nav {
+  display: flex;
+  background-color: #000000; /* Black Header */
+  padding: 1rem;
+  justify-content: center;
+}
+
+.header-link {
+  color: #ffffff; /* White Text */
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.header-link:hover {
+  color: #666666; /* Light Gray Hover */
+}
+
+/* Misuse Page */
+.misuse-page {
+  padding: 1rem;
+}
+
+.misuse-section {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.misuse-section.reverse {
+  flex-direction: row-reverse;
+}
+
+.section-text {
+  flex: 1;
+}
+
+.section-graphic {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Remove or override the default border/background from .section-graphic div */
+.section-graphic div {
+  background-color: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+/* Keep Content Centered */
+.design-page,
+.misuse-page {
+  max-width: 1300px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Quiz Page */
+.quiz-page {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Quiz Question Boxes */
+.quiz-question {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: #f8f8f8;
+  border: 2px solid #000000;
+  border-radius: 6px;
+}
+
+/* Answer Option Styling */
+.options-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+}
+
+.option-label {
+  margin: 0.25rem 0;
+  background-color: #f2f2f2;
+  padding: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.option-label:hover {
+  background-color: #e6e6e6;
+}
+
+/* Buttons */
+.submit-btn,
+.retry-btn {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #000000; /* Black Button */
+  color: #ffffff; /* White Text */
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.submit-btn:hover,
+.retry-btn:hover {
+  background-color: #333333; /* Darker Black Hover */
+}
+
+/* Answers Review Section */
+.answers-review {
+  margin-top: 1.5rem;
+}
+
+/* Answer Box (Correct / Incorrect) */
+.answer-review-item {
+  border: 2px solid #000000;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+}
+
+/* Correct Answer Styling */
+.answer-review-item.correct {
+  border-color: #27ae60; /* Green */
+  background-color: #eafaf1; /* Light Green */
+  color: #1b5e20; /* Dark Green Text */
+}
+
+/* Incorrect Answer Styling */
+.answer-review-item.incorrect {
+  border-color: #c0392b; /* Red */
+  background-color: #fdecea; /* Light Red */
+  color: #c0392b; /* Dark Red Text */
+}
+
+/* Correct Answer Display */
+.correct-answer {
+  font-weight: bold;
+  color: #000000; /* Black */
+}

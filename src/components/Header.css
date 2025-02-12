@@ -1,0 +1,19 @@
+/* Header.css */
+.header-nav {
+    display: flex;
+    background-color: #0a66c2;
+    padding: 1rem;
+    justify-content: center;
+  }
+  
+  .header-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+  }
+  
+  .header-link:hover {
+    text-decoration: underline;
+  }
+  
