@@ -50,6 +50,12 @@ const References = () => {
             APEGA Ethics Guide PDF
           </a>.
         </li>
+        <li>
+          {"[8]"} OpenAI, “ChatGPT,” AI-generated assistance for speeding up devolpment of website code and quiz questions, 2025.{" "}
+          <a href="https://openai.com/chatgpt" target="_blank" rel="noopener noreferrer">
+            https://openai.com/chatgpt
+          </a>.
+        </li>
       </ol>
     </div>
   );

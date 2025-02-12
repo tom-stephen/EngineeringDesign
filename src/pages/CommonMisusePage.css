@@ -4,6 +4,10 @@
   
 }
 
+.reverse{
+  flex-direction: row-reverse;
+}
+
 /* Media query for smaller screens */
 @media (max-width: 768px) {
   .content-wrapper {
