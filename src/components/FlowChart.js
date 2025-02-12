@@ -98,6 +98,7 @@ const designPrinciplesData = {
     { id: 'e18-20', source: 'economicImpact', target: 'completeDesign' },
     { id: 'e19-20', source: 'longTermViability', target: 'completeDesign' }
   ];
+  
 
 const FlowChart = () => {
   const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
