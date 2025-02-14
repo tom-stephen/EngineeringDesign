@@ -1,6 +1,7 @@
 import React from "react";
 import FlowChart from "../components/FlowChart";
 import References from "../components/Refrences";
+import functionalityImg from "../components/Functionality.png";
 
 const DesignPage = () => {
   return (
@@ -14,6 +15,25 @@ const DesignPage = () => {
         designed without the proper planning, thought, and revision can lead to
         misuse or harm.
       </p>
+
+      {/* diagram image */}
+      <figure>
+        <img
+          src={functionalityImg}
+          alt="Design Diagram"
+          style={{ width: "100%", height: "auto", margin: "2rem 0" }}
+        />
+        <figcaption
+          style={{
+            fontSize: "0.9rem",
+            color: "#555",
+            marginTop: "0.5rem",
+            textAlign: "center",
+          }}
+        >
+          Diagram of Design Principles drawn my me (Tom Stephen)
+        </figcaption>
+      </figure>
 
       <h2>Functionality</h2>
       <p>

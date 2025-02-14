@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import questionsBank from '../data/questions';
+import React, { useState, useEffect } from "react";
+import questionsBank from "../data/questions";
 
 const QuizPage = () => {
   const [quizQuestions, setQuizQuestions] = useState([]);
@@ -21,7 +21,7 @@ const QuizPage = () => {
   const handleSelect = (questionIndex, option) => {
     setUserAnswers((prev) => ({
       ...prev,
-      [questionIndex]: option
+      [questionIndex]: option,
     }));
   };
 
@@ -65,23 +65,55 @@ const QuizPage = () => {
           <button onClick={handleSubmit} className="submit-btn">
             Submit
           </button>
+          <div
+            style={{
+              fontSize: "0.9rem",
+              color: "#555",
+              marginTop: "0.5rem",
+              textAlign: "center",
+            }}
+          >
+            Disclamer: This quiz was genorated with the help of{" "}
+            <a
+              href="https://chatgpt.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                fontWeight: "bold",
+                textDecoration: "none",
+                color: "#007bff",
+                marginLeft: "5px",
+              }}
+            >
+              ChatGPT
+            </a>
+            .
+          </div>
         </>
       ) : (
         <>
-          <h2>Your Score: {score} / {quizQuestions.length}</h2>
+          <h2>
+            Your Score: {score} / {quizQuestions.length}
+          </h2>
 
           <div className="answers-review">
             {quizQuestions.map((q, index) => {
               const correctAnswer = q.answer.trim();
-              const userAnswer = userAnswers[index] ? userAnswers[index].trim() : null;
+              const userAnswer = userAnswers[index]
+                ? userAnswers[index].trim()
+                : null;
               const isCorrect = userAnswer === correctAnswer;
 
               return (
                 <div
                   key={index}
-                  className={`answer-review-item ${isCorrect ? "correct" : "incorrect"}`}
+                  className={`answer-review-item ${
+                    isCorrect ? "correct" : "incorrect"
+                  }`}
                 >
-                  <h3>Q{index + 1}: {q.question}</h3>
+                  <h3>
+                    Q{index + 1}: {q.question}
+                  </h3>
                   <p>
                     Your answer: <strong>{userAnswer || "No answer"}</strong>
                     {isCorrect ? " ✓" : " ✗"}
@@ -99,6 +131,30 @@ const QuizPage = () => {
           <button onClick={loadNewQuestions} className="retry-btn">
             Retry
           </button>
+          <div
+            style={{
+              fontSize: "0.9rem",
+              color: "#555",
+              marginTop: "0.5rem",
+              textAlign: "center",
+            }}
+          >
+            Disclamer: This quiz was genorated with the help of{" "}
+            <a
+              href="https://chatgpt.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                fontWeight: "bold",
+                textDecoration: "none",
+                color: "#007bff",
+                marginLeft: "5px",
+              }}
+            >
+              ChatGPT
+            </a>
+            .
+          </div>
         </>
       )}
     </div>
