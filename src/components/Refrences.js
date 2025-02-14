@@ -9,13 +9,13 @@ const References = () => {
          {"[1]"}Centre for Excellence in Universal Design, “The 7 Principles,” Centre for Excellence in Universal Design.{" "}
           <a href="https://universaldesign.ie/about-universal-design/the-7-principles" target="_blank" rel="noopener noreferrer">
             https://universaldesign.ie/about-universal-design/the-7-principles
-          </a>
+          </a> (Cource Resource)
         </li>
         <li>
         {"[2]"}“How Design for Misuse Creates Safer Products,” Delve, 2023.{" "}
           <a href="https://www.delve.com/insights/how-design-for-misuse-creates-safer-products" target="_blank" rel="noopener noreferrer">
             https://www.delve.com/insights/how-design-for-misuse-creates-safer-products
-          </a> (accessed Feb. 12, 2025).
+          </a> (accessed Feb. 12, 2025). (Cource Resource)
         </li>
         <li>
         {"[3]"}J. M. Biggs, J. A. Morgan, A. B. Lardieri, O. A. Kishk, and W. Klein-Schwartz, “Abuse and Misuse of Selected Dietary Supplements Among Adolescents: a Look at Poison Center Data,”{" "}

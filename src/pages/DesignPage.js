@@ -100,8 +100,8 @@ const DesignPage = () => {
         public” [7].
       </p>
       <p>
-        When reading the “How to Desighn for misuse” and “The 7 Principals of
-        universal design” i thought alot about cost and how much it effects the
+        When reading the <i>“How to Desighn for misuse”</i> and <i>“The 7 Principles of Universal Design
+        ”</i> i thought a lot about cost and how much it effects the
         world and designs that engineers produce. In so many aspects. From
         accessibility to external pressures on design. Cost and finances can
         effect designs in negative and positive ways.
@@ -110,7 +110,12 @@ const DesignPage = () => {
         Functionality, safety, environment, and cost are 4 very important
         principles that all engineers must keep in mind when designing. These
         factors must be carefully balanced to ensure the designs they create
-        positively impact society with minimum harm.
+        positively impact society with minimum harm. Through reading these 
+        case studies, I gained a deeper understanding of the design process 
+        and how critical each step truly is. I also learned about the many 
+        factors that must be considered at every stage, from functionality to
+        ethics. This experience will definitely help me in the future when 
+        working through my own design challenges. 
       </p>
       <h1>How to Better Design - Interactive Flowchart</h1>
       <FlowChart />
