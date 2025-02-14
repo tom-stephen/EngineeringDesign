@@ -35,28 +35,23 @@ const CommonMisusePage = () => {
           <div className="section-text">
             <h2>The Vape</h2>
             <p>
-              The Vape was originally introduced into the market as a tool for
-              smokers to transition from smoking to a “healthier” alternative.
-              After multiple studies, this claim of being a healthier
-              alternative is not necessarily true. The introduction of this
-              healthier way to smoke in combination with more flavors attracted
-              younger audiences. Whether this was an intended side effect or not
-              it was not a marketed one and brings into question the ethics
-              surrounding the design and decision.
+            E-cigarettes were initially marketed as a “healthier” alternative 
+            to smoking, but studies have shown that this claim is questionable. 
+            The design choices—such as flavored options and high nicotine— 
+            attracted younger audiences, raising ethical concerns about whether 
+            potential misuse was adequately considered during development. This 
+            highlights the broader responsibility of engineers to anticipate unintended 
+            consequences in product design.
             </p>
             <p>
-              One article titled “Nicotine Addiction and Intensity of
-              e-Cigarette Use by Adolescents in the US, 2014 to 2021,“ says that
-              e-cigarettes have a high level of nicotine making them extremely
-              addictive. This is why so many young people often minors have been
-              hooked on them. The article goes as far as to say “By 2019, more
-              e-cigarette users were using their first tobacco product within 5
-              minutes of waking than users of cigarettes and all other tobacco
-              products combined.” [3].
-            </p>
-            <p>
-              To the side, you can see some data showcasing the use of
-              e-cigarettes by kids from the age of 16-19 between 2017 and 2019.
+            A key ethical issue is the high nicotine content in e-cigarettes, 
+            making them highly addictive. By 2019, more e-cigarette users consumed 
+            nicotine within five minutes of waking than users of cigarettes or 
+            other tobacco products [3]. This addiction crisis greatly affects minors, 
+            as seen in data from 2017 to 2019, which shows a high persentage of 
+            e-cigarette use among 16 to 19-year-olds. The widespread impact of this 
+            design underscores the ethical obligation to prioritize public health over 
+            market expansion.
             </p>
             <label>
               Select Data Set: &nbsp;
@@ -119,34 +114,21 @@ const CommonMisusePage = () => {
           <div className="section-text">
             <h2>Whippets</h2>
             <p>
-              Whipped cream chargers, commonly known as "whippets," are small
-              steel cartridges filled with nitrous oxide (N₂O) designed for
-              culinary purposes, such as whipping cream. However, these chargers
-              are often misused for recreational inhalation to achieve a brief
-              euphoric high. This practice poses significant health risks such
-              as Neurological Damage, Vitamin B12 deficiency, Heart attack due
-              to a sudden increase in blood pressure, Sudden death from oxygen
-              deprivation, along many other health issues. [5]
+            Whipped cream chargers, or "whippets," are designed for culinary 
+            use but are frequently misused for recreational inhalation, leading 
+            to severe health risks such as neurological damage, vitamin B12 deficiency, 
+            and oxygen deprivation [5]. The emergence of large, flavored nitrous oxide 
+            containers, like those from Galaxy Gas, further raises ethical concerns, as 
+            their design facilitates direct recreational use despite being marketed for 
+            whipped cream preparation.
             </p>
             <p>
-              Companies such as Galaxy Gas have come out with large steel
-              containers of flavored gas. They claim to make flavored whipped
-              cream but the containers come with an attachment that makes it
-              easy for direct recreational drug use. Designing and releasing
-              this product brings into question major ethical questions and
-              concerns. Where the 4 points presented in
-              <a
-                href="/"
-                style={{
-                  fontWeight: "bold",
-                  textDecoration: "none",
-                  color: "inherit",
-                }}
-              >
-                {" "}
-                “How to Better Design”
-              </a>{" "}
-              considered?
+            This case exemplifies the ethical responsibility of engineers and designers 
+            to anticipate misuse. Were key design principles—such as safety and societal 
+            impact—adequately considered? The ease of misuse suggests otherwise, highlighting 
+            a critical gap in ethical decision-making during product development. This issue 
+            drew my attention because it underscores the unintended consequences of design 
+            choices and the importance of accountability in engineering.
             </p>
           </div>
           <div className="section-graphic">
@@ -184,6 +166,12 @@ const CommonMisusePage = () => {
           </div>
         </div>
       </section>
+
+    </div>
+  );
+};
+
+export default CommonMisusePage;
 
       {/* ----------- Dietary Supplements ----------- */}
       <section className="misuse-section">
@@ -280,19 +268,12 @@ const CommonMisusePage = () => {
             <p>
               When one thinks of McDonalds cocane is definitely not something
               that comes to mind for the majority of us. However, it is for
-              some. In the 1970’s McDonalds came out with a coffee spoon. “It
-              was a glorious, elegant utensil — long, thin handle, tiny scooper
-              on the end, each pridefully topped with the golden arches.” [6]
-              this spoon was used as a tool by drug dealers to consume cocaine.
-              The small scooper on the end made for the perfect size and the
-              long handle made it easy to use for the job.
-            </p>
-            <p>
-              The Spoon was born at a difficult time when America was suffering
-              from a drug crisis. The spoon still opens the questions about the
-              design process. In the early 1980s McDonalds redesigned the spoon
-              to have a flat head to still work as a stir stick but not for any
-              other cocane-related purposes.
+              some. In the 1970’s McDonalds came out with a coffee spoon. This
+              spoon was used as a tool by drug dealers to consume cocaine. The
+              small scooper on the end made for the perfect size and the long
+              handle made it easy to use for the job. In the early 1980s
+              McDonalds redesigned the spoon to have a flat head to still work
+              as a stir stick but not for any other cocane-related purposes.
             </p>
           </div>
           <div className="section-graphic">
@@ -329,8 +310,3 @@ const CommonMisusePage = () => {
           </div>
         </div>
       </section>
-    </div>
-  );
-};
-
-export default CommonMisusePage;
